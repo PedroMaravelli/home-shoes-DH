@@ -53,17 +53,21 @@
                     </div>
                     <div class="nome">
                         <label>Departamentos</label>
-                        <select name="departamentos">
-                            <option value="selecione" selected disabled>Selecione</option>
-                            <option value="rh">RH</option>
-                            <option value="administracao">Administração</option>
-                            <option value="suporteaocliente">Suporte ao Cliente</option>
-                        </select>
+                        <div class="departamentos">
+                            <select name="departamentos" >
+                                <option value="selecione" selected disabled>Selecione</option>
+                                <option value="rh">RH</option>
+                                <option value="administracao">Administração</option>
+                                <option value="suporteaocliente">Suporte ao Cliente</option>
+                                </select>
+                        </div>
 
                     </div>
 
-                    <div class="disponibilidade">
-                        <label name="disponibilidade" id="label">Disponibilidade</label>
+                    <div class="formularioradioecheck">
+                        <div class="textocontato">
+                            <label name="disponibilidade">Disponibilidade</label>
+                        </div>
                         <div class="horarios">
                             <input type="checkbox" name="disponibilidade" id="integral"><label for="integral">Integral (8h)</label>
                             <input type="checkbox" name="disponibilidade" id="meioperiodo"><label for="meioperiodo">Meio periodo (4h)</label>
@@ -71,22 +75,42 @@
                         </div>
                     </div>
 
-                    <div class="contato">
-                        <label name="contato">Qual a melhor forma para entrarmos em contato com você?</label>
+                    <div class="formularioradioecheck">
 
-                        <input type="radio" name="contato" id="email" value="email"><label for="email">Email</label>
+                        <div class="textocontato">
+                            <label name="contato">Qual a melhor forma para entrarmos em contato com você?</label>
+                        </div>
 
-                        <input type="radio" name="contato" id="whatsapp" value="whatsapp"><label for="whatsapp">Whatsapp</label>
+                        <div class="horarios">
 
-                        <input type="radio" name="contato" id="telefone" value="telefone"><label for="telefone">Telefone</label>
+                            <input type="radio" name="contato" id="email" value="email"><label for="email">Email</label>
+
+                            <input type="radio" name="contato" id="whatsapp" value="whatsapp"><label for="whatsapp">Whatsapp</label>
+
+                            <input type="radio" name="contato" id="telefone" value="telefone"><label for="telefone">Telefone</label>
+
+                        </div>
                     </div>
                     <div class="mensagem">
-                        <label for="mensagem">Mensagem</label>
-                        <textarea name="mensagem" id="mensagem">Digite aqui</textarea>
+
+                        <div class="textocontato">
+
+                            <label for="mensagem">Mensagem</label>
+
+                        </div>
+
+                        <div class="campodemsg">
+                            <textarea name="mensagem" id="mensagem"></textarea>
+                        </div>
+
                     </div>
                     <div class="curriculo">
-                        <label for="curriculo">Curriculo</label>
-                        <button type="button" id="curiculo">Upload</button>
+                        <div class="textocontato">
+                            <label for="curriculo">Curriculo</label>
+                        </div>
+                        <div class="botaoupload">
+                            <button type="submit" id="curiculo">Upload</button>
+                        </div>
                     </div>
                     <div class="botaoenviar">
                         <button type="submit">Enviar</button>
@@ -95,8 +119,79 @@
             </article>
 
         </section>
+        <section class="txtlorem">
+            <article class="textos">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium natus autem illo maxime molestiae sapiente, consequatur eos libero ut tempore impedit odit consectetur commodi, cumque error? Perferendis tempore a quis non quae itaque culpa voluptatibus quisquam nam et, deserunt ipsum laboriosam dolorem nostrum sed consequuntur magnam sit amet consequatur necessitatibus rerum obcaecati ea accusantium! Aperiam magni corporis error eum consequatur.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit voluptate dolorem necessitatibus esse at eligendi ducimus amet quidem corporis dolores. Amet et perferendis nihil nemo neque ratione, magnam voluptas ipsa, fugit, vero rem. Doloribus beatae blanditiis laborum, voluptatem nobis voluptatum commodi iure magni sit cumque veniam quasi quam. Hic dicta odio ea, recusandae nesciunt, rerum eos numquam, vero velit perferendis magnam consectetur? Laboriosam, sapiente? Assumenda, facere cumque? Aspernatur, quaerat itaque.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias mollitia dolor molestiae delectus, earum dolores sit, commodi harum ullam ea nobis ut hic, perferendis in eaque animi. Rem, ipsum sed inventore ipsa modi reprehenderit. Ipsum perspiciatis velit hic ducimus odio, doloremque possimus eum accusantium dolore quidem cupiditate necessitatibus. Alias ab saepe fugiat illo, expedita sequi mollitia reiciendis dignissimos nulla ea.</p>
+            </article>
+            
+        </section>
 
     </main>
+
+
+
+
+
+    <footer class="rodape">
+        <section class="textosfooter">
+            <article id="itensfooter">
+                <div class="imagemetextofooter">
+                    <div>
+                        <img src="./img/logo-white.png">
+                    </div>
+                    
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ea vero nostrum sint incidunt nulla. Dolorem quod velit eum aperiam.</p>
+                    </div>
+                </div>
+
+
+                
+                <div class="listadesapatos">
+                    <div class="textofooterdireita">
+                        <div>
+                            <h3>Categorias</h3>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Sandalias</li>
+                                <li>Botas</li>
+                                <li>Tênis</li>
+                                <li>Oxford</li>
+                                <li>Coturnos</li>
+                            <ul>
+                        </div>
+                        </div> 
+                        <div class="textofooterdireita">
+                            <div>
+                                <h3>Institucional</h3>
+                            </div>
+                            <div>
+                                <ul>
+                                    <li>Sobre nós</li>
+                                    <li>Perguntas frequentes</li>
+                                    <li>Politica de Privacidade</li>
+                                    <li>Rastreamento de Pedidos</li>
+                                    <li>Trabalhe conosco</li>
+                                    <li>Contato</li>
+                                </ul>
+                            </div>
+                        </div>
+                           
+                        
+                </div>
+
+                    
+
+               
+
+            </article>
+
+           
+        </section>
+    </footer>
     
 </body>
 </html>
